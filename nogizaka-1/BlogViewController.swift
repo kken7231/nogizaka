@@ -2,8 +2,8 @@
 //  BlogViewController.swift
 //  nogizaka-1
 //
-//  Created by kentaro on 2018/01/14.
-//  Copyright © 2018 kentaro kusumi. All rights reserved.
+//  Created by kken7231 on 2018/01/14.
+//  Copyright © 2018 kken7231. All rights reserved.
 //
 
 import UIKit
