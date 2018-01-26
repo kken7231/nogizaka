@@ -14,6 +14,66 @@
 		9631F1EF200892BA00B91E93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9631F1ED200892BA00B91E93 /* LaunchScreen.storyboard */; };
 		9631F1FA200892BA00B91E93 /* nogizaka_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9631F1F9200892BA00B91E93 /* nogizaka_1Tests.swift */; };
 		9631F205200892BA00B91E93 /* nogizaka_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9631F204200892BA00B91E93 /* nogizaka_1UITests.swift */; };
+		9631F2132008936F00B91E93 /* ic_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9631F2122008936E00B91E93 /* ic_logo.png */; };
+		96527314200C00D7009A78DF /* ic_check.png in Resources */ = {isa = PBXBuildFile; fileRef = 96527313200C00D6009A78DF /* ic_check.png */; };
+		96797308200CB8F100A7CA8A /* ic_bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 96797307200CB8ED00A7CA8A /* ic_bar.png */; };
+		9679730A200CBF0200A7CA8A /* ic_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 96797309200CBF0200A7CA8A /* ic_background.png */; };
+		9679733B200CEBE200A7CA8A /* 吉田綾乃クリスティー.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679730D200CEBC900A7CA8A /* 吉田綾乃クリスティー.jpg */; };
+		9679733C200CEBE200A7CA8A /* 斉藤優里.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679730E200CEBC900A7CA8A /* 斉藤優里.jpg */; };
+		9679733D200CEBE200A7CA8A /* 堀未央奈.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679730F200CEBCA00A7CA8A /* 堀未央奈.jpg */; };
+		9679733E200CEBE200A7CA8A /* 生駒里奈.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797310200CEBCA00A7CA8A /* 生駒里奈.jpg */; };
+		9679733F200CEBE200A7CA8A /* 向井葉月.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797311200CEBCB00A7CA8A /* 向井葉月.jpg */; };
+		96797340200CEBE200A7CA8A /* 伊藤純奈.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797312200CEBCB00A7CA8A /* 伊藤純奈.jpg */; };
+		96797341200CEBE200A7CA8A /* 阪口珠美.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797313200CEBCC00A7CA8A /* 阪口珠美.jpg */; };
+		96797342200CEBE200A7CA8A /* 久保史緒里.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797314200CEBCD00A7CA8A /* 久保史緒里.jpg */; };
+		96797343200CEBE200A7CA8A /* 川村真洋.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797315200CEBCD00A7CA8A /* 川村真洋.jpg */; };
+		96797344200CEBE200A7CA8A /* 松村沙友理.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797316200CEBCE00A7CA8A /* 松村沙友理.jpg */; };
+		96797345200CEBE200A7CA8A /* 伊藤万理華.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797317200CEBCE00A7CA8A /* 伊藤万理華.jpg */; };
+		96797346200CEBE200A7CA8A /* 能條愛未.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797318200CEBCF00A7CA8A /* 能條愛未.jpg */; };
+		96797347200CEBE200A7CA8A /* 新内眞衣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797319200CEBD000A7CA8A /* 新内眞衣.jpg */; };
+		96797348200CEBE200A7CA8A /* 与田祐希.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679731A200CEBD000A7CA8A /* 与田祐希.jpg */; };
+		96797349200CEBE200A7CA8A /* 大園桃子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679731B200CEBD100A7CA8A /* 大園桃子.jpg */; };
+		9679734A200CEBE200A7CA8A /* 渡辺みり愛.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679731C200CEBD100A7CA8A /* 渡辺みり愛.jpg */; };
+		9679734B200CEBE200A7CA8A /* 衛藤美彩.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679731D200CEBD200A7CA8A /* 衛藤美彩.jpg */; };
+		9679734C200CEBE200A7CA8A /* 秋元真夏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679731E200CEBD300A7CA8A /* 秋元真夏.jpg */; };
+		9679734D200CEBE200A7CA8A /* 鈴木絢音.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679731F200CEBD300A7CA8A /* 鈴木絢音.jpg */; };
+		9679734E200CEBE200A7CA8A /* 生田絵梨花.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797320200CEBD400A7CA8A /* 生田絵梨花.jpg */; };
+		9679734F200CEBE200A7CA8A /* 寺田蘭世.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797321200CEBD400A7CA8A /* 寺田蘭世.jpg */; };
+		96797350200CEBE200A7CA8A /* 中田花奈.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797322200CEBD500A7CA8A /* 中田花奈.jpg */; };
+		96797351200CEBE200A7CA8A /* 樋口日奈.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797323200CEBD500A7CA8A /* 樋口日奈.jpg */; };
+		96797352200CEBE200A7CA8A /* 井上小百合.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797324200CEBD500A7CA8A /* 井上小百合.jpg */; };
+		96797353200CEBE200A7CA8A /* 北野日奈子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797325200CEBD600A7CA8A /* 北野日奈子.jpg */; };
+		96797354200CEBE200A7CA8A /* 相楽伊織.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797326200CEBD600A7CA8A /* 相楽伊織.jpg */; };
+		96797355200CEBE200A7CA8A /* 齋藤飛鳥.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797327200CEBD600A7CA8A /* 齋藤飛鳥.jpg */; };
+		96797356200CEBE200A7CA8A /* 若月佑美.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797328200CEBD600A7CA8A /* 若月佑美.jpg */; };
+		96797357200CEBE200A7CA8A /* 星野みなみ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797329200CEBD700A7CA8A /* 星野みなみ.jpg */; };
+		96797358200CEBE200A7CA8A /* 伊藤理々杏.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679732A200CEBD700A7CA8A /* 伊藤理々杏.jpg */; };
+		96797359200CEBE200A7CA8A /* 西野七瀬.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679732B200CEBD800A7CA8A /* 西野七瀬.jpg */; };
+		9679735A200CEBE200A7CA8A /* 中村麗乃.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679732C200CEBD800A7CA8A /* 中村麗乃.jpg */; };
+		9679735B200CEBE200A7CA8A /* 伊藤かりん.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679732D200CEBD900A7CA8A /* 伊藤かりん.jpg */; };
+		9679735C200CEBE200A7CA8A /* 佐藤楓.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679732E200CEBDB00A7CA8A /* 佐藤楓.jpg */; };
+		9679735D200CEBE200A7CA8A /* 梅澤美波.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679732F200CEBDC00A7CA8A /* 梅澤美波.jpg */; };
+		9679735E200CEBE200A7CA8A /* 桜井玲香.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797330200CEBDD00A7CA8A /* 桜井玲香.jpg */; };
+		9679735F200CEBE200A7CA8A /* 白石麻衣.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797331200CEBDE00A7CA8A /* 白石麻衣.jpg */; };
+		96797360200CEBE200A7CA8A /* 和田まあや.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797332200CEBDF00A7CA8A /* 和田まあや.jpg */; };
+		96797361200CEBE200A7CA8A /* 山下美月.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797333200CEBDF00A7CA8A /* 山下美月.jpg */; };
+		96797362200CEBE200A7CA8A /* 岩本蓮加.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797334200CEBDF00A7CA8A /* 岩本蓮加.jpg */; };
+		96797363200CEBE200A7CA8A /* 高山一実.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797335200CEBE000A7CA8A /* 高山一実.jpg */; };
+		96797364200CEBE200A7CA8A /* 川後陽菜.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797336200CEBE000A7CA8A /* 川後陽菜.jpg */; };
+		96797365200CEBE200A7CA8A /* 山崎怜奈.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797337200CEBE100A7CA8A /* 山崎怜奈.jpg */; };
+		96797366200CEBE200A7CA8A /* 佐々木琴子.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797338200CEBE100A7CA8A /* 佐々木琴子.jpg */; };
+		96797367200CEBE200A7CA8A /* 斎藤ちはる.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96797339200CEBE100A7CA8A /* 斎藤ちはる.jpg */; };
+		96797368200CEBE200A7CA8A /* 中元日芽香.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679733A200CEBE200A7CA8A /* 中元日芽香.jpg */; };
+		9679736C200CF5B100A7CA8A /* ３期生.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9679736B200CF5AD00A7CA8A /* ３期生.jpg */; };
+		96C0C555200BCE4E005A3F7D /* BlogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0C553200BCE4E005A3F7D /* BlogTableViewCell.swift */; };
+		96C0C556200BCE4E005A3F7D /* BlogTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C0C554200BCE4E005A3F7D /* BlogTableViewCell.xib */; };
+		96C0C558200BD8B3005A3F7D /* BlogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C0C557200BD8B3005A3F7D /* BlogViewController.swift */; };
+		96C50C1A200A56C100EFC71B /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C50C18200A56C100EFC71B /* NewsTableViewCell.xib */; };
+		96C50C1E200A6B9900EFC71B /* ScheTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96C50C1C200A6B9900EFC71B /* ScheTableViewCell.xib */; };
+		96C50C20200A6F0500EFC71B /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C50C1F200A6F0500EFC71B /* NewsTableViewCell.swift */; };
+		96C50C22200A6F1F00EFC71B /* ScheTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C50C21200A6F1F00EFC71B /* ScheTableViewCell.swift */; };
+		96CBA698200A03200013F5E7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CBA697200A03200013F5E7 /* RootViewController.swift */; };
+		96CDC009200DC67500217F81 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CDC008200DC67500217F81 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +107,66 @@
 		9631F200200892BA00B91E93 /* nogizaka-1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nogizaka-1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9631F204200892BA00B91E93 /* nogizaka_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nogizaka_1UITests.swift; sourceTree = "<group>"; };
 		9631F206200892BA00B91E93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9631F2122008936E00B91E93 /* ic_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_logo.png; sourceTree = "<group>"; };
+		96527313200C00D6009A78DF /* ic_check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_check.png; sourceTree = "<group>"; };
+		96797307200CB8ED00A7CA8A /* ic_bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_bar.png; sourceTree = "<group>"; };
+		96797309200CBF0200A7CA8A /* ic_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_background.png; sourceTree = "<group>"; };
+		9679730D200CEBC900A7CA8A /* 吉田綾乃クリスティー.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "吉田綾乃クリスティー.jpg"; sourceTree = "<group>"; };
+		9679730E200CEBC900A7CA8A /* 斉藤優里.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "斉藤優里.jpg"; sourceTree = "<group>"; };
+		9679730F200CEBCA00A7CA8A /* 堀未央奈.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "堀未央奈.jpg"; sourceTree = "<group>"; };
+		96797310200CEBCA00A7CA8A /* 生駒里奈.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "生駒里奈.jpg"; sourceTree = "<group>"; };
+		96797311200CEBCB00A7CA8A /* 向井葉月.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "向井葉月.jpg"; sourceTree = "<group>"; };
+		96797312200CEBCB00A7CA8A /* 伊藤純奈.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "伊藤純奈.jpg"; sourceTree = "<group>"; };
+		96797313200CEBCC00A7CA8A /* 阪口珠美.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "阪口珠美.jpg"; sourceTree = "<group>"; };
+		96797314200CEBCD00A7CA8A /* 久保史緒里.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "久保史緒里.jpg"; sourceTree = "<group>"; };
+		96797315200CEBCD00A7CA8A /* 川村真洋.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "川村真洋.jpg"; sourceTree = "<group>"; };
+		96797316200CEBCE00A7CA8A /* 松村沙友理.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "松村沙友理.jpg"; sourceTree = "<group>"; };
+		96797317200CEBCE00A7CA8A /* 伊藤万理華.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "伊藤万理華.jpg"; sourceTree = "<group>"; };
+		96797318200CEBCF00A7CA8A /* 能條愛未.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "能條愛未.jpg"; sourceTree = "<group>"; };
+		96797319200CEBD000A7CA8A /* 新内眞衣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "新内眞衣.jpg"; sourceTree = "<group>"; };
+		9679731A200CEBD000A7CA8A /* 与田祐希.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "与田祐希.jpg"; sourceTree = "<group>"; };
+		9679731B200CEBD100A7CA8A /* 大園桃子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大園桃子.jpg"; sourceTree = "<group>"; };
+		9679731C200CEBD100A7CA8A /* 渡辺みり愛.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "渡辺みり愛.jpg"; sourceTree = "<group>"; };
+		9679731D200CEBD200A7CA8A /* 衛藤美彩.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "衛藤美彩.jpg"; sourceTree = "<group>"; };
+		9679731E200CEBD300A7CA8A /* 秋元真夏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "秋元真夏.jpg"; sourceTree = "<group>"; };
+		9679731F200CEBD300A7CA8A /* 鈴木絢音.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "鈴木絢音.jpg"; sourceTree = "<group>"; };
+		96797320200CEBD400A7CA8A /* 生田絵梨花.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "生田絵梨花.jpg"; sourceTree = "<group>"; };
+		96797321200CEBD400A7CA8A /* 寺田蘭世.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "寺田蘭世.jpg"; sourceTree = "<group>"; };
+		96797322200CEBD500A7CA8A /* 中田花奈.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "中田花奈.jpg"; sourceTree = "<group>"; };
+		96797323200CEBD500A7CA8A /* 樋口日奈.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "樋口日奈.jpg"; sourceTree = "<group>"; };
+		96797324200CEBD500A7CA8A /* 井上小百合.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "井上小百合.jpg"; sourceTree = "<group>"; };
+		96797325200CEBD600A7CA8A /* 北野日奈子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "北野日奈子.jpg"; sourceTree = "<group>"; };
+		96797326200CEBD600A7CA8A /* 相楽伊織.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "相楽伊織.jpg"; sourceTree = "<group>"; };
+		96797327200CEBD600A7CA8A /* 齋藤飛鳥.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "齋藤飛鳥.jpg"; sourceTree = "<group>"; };
+		96797328200CEBD600A7CA8A /* 若月佑美.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "若月佑美.jpg"; sourceTree = "<group>"; };
+		96797329200CEBD700A7CA8A /* 星野みなみ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "星野みなみ.jpg"; sourceTree = "<group>"; };
+		9679732A200CEBD700A7CA8A /* 伊藤理々杏.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "伊藤理々杏.jpg"; sourceTree = "<group>"; };
+		9679732B200CEBD800A7CA8A /* 西野七瀬.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "西野七瀬.jpg"; sourceTree = "<group>"; };
+		9679732C200CEBD800A7CA8A /* 中村麗乃.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "中村麗乃.jpg"; sourceTree = "<group>"; };
+		9679732D200CEBD900A7CA8A /* 伊藤かりん.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "伊藤かりん.jpg"; sourceTree = "<group>"; };
+		9679732E200CEBDB00A7CA8A /* 佐藤楓.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "佐藤楓.jpg"; sourceTree = "<group>"; };
+		9679732F200CEBDC00A7CA8A /* 梅澤美波.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "梅澤美波.jpg"; sourceTree = "<group>"; };
+		96797330200CEBDD00A7CA8A /* 桜井玲香.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "桜井玲香.jpg"; sourceTree = "<group>"; };
+		96797331200CEBDE00A7CA8A /* 白石麻衣.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "白石麻衣.jpg"; sourceTree = "<group>"; };
+		96797332200CEBDF00A7CA8A /* 和田まあや.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "和田まあや.jpg"; sourceTree = "<group>"; };
+		96797333200CEBDF00A7CA8A /* 山下美月.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "山下美月.jpg"; sourceTree = "<group>"; };
+		96797334200CEBDF00A7CA8A /* 岩本蓮加.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "岩本蓮加.jpg"; sourceTree = "<group>"; };
+		96797335200CEBE000A7CA8A /* 高山一実.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "高山一実.jpg"; sourceTree = "<group>"; };
+		96797336200CEBE000A7CA8A /* 川後陽菜.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "川後陽菜.jpg"; sourceTree = "<group>"; };
+		96797337200CEBE100A7CA8A /* 山崎怜奈.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "山崎怜奈.jpg"; sourceTree = "<group>"; };
+		96797338200CEBE100A7CA8A /* 佐々木琴子.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "佐々木琴子.jpg"; sourceTree = "<group>"; };
+		96797339200CEBE100A7CA8A /* 斎藤ちはる.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "斎藤ちはる.jpg"; sourceTree = "<group>"; };
+		9679733A200CEBE200A7CA8A /* 中元日芽香.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "中元日芽香.jpg"; sourceTree = "<group>"; };
+		9679736B200CF5AD00A7CA8A /* ３期生.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "３期生.jpg"; sourceTree = "<group>"; };
+		96C0C553200BCE4E005A3F7D /* BlogTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogTableViewCell.swift; sourceTree = "<group>"; };
+		96C0C554200BCE4E005A3F7D /* BlogTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BlogTableViewCell.xib; sourceTree = "<group>"; };
+		96C0C557200BD8B3005A3F7D /* BlogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogViewController.swift; sourceTree = "<group>"; };
+		96C50C18200A56C100EFC71B /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		96C50C1C200A6B9900EFC71B /* ScheTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheTableViewCell.xib; sourceTree = "<group>"; };
+		96C50C1F200A6F0500EFC71B /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		96C50C21200A6F1F00EFC71B /* ScheTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheTableViewCell.swift; sourceTree = "<group>"; };
+		96CBA697200A03200013F5E7 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		96CDC008200DC67500217F81 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +218,18 @@
 			isa = PBXGroup;
 			children = (
 				9631F1E4200892BA00B91E93 /* AppDelegate.swift */,
+				96CBA697200A03200013F5E7 /* RootViewController.swift */,
 				9631F1E6200892BA00B91E93 /* ViewController.swift */,
+				96C0C557200BD8B3005A3F7D /* BlogViewController.swift */,
+				96CDC008200DC67500217F81 /* WebViewController.swift */,
 				9631F1E8200892BA00B91E93 /* Main.storyboard */,
+				96C50C1F200A6F0500EFC71B /* NewsTableViewCell.swift */,
+				96C50C18200A56C100EFC71B /* NewsTableViewCell.xib */,
+				96C50C21200A6F1F00EFC71B /* ScheTableViewCell.swift */,
+				96C50C1C200A6B9900EFC71B /* ScheTableViewCell.xib */,
+				96C0C553200BCE4E005A3F7D /* BlogTableViewCell.swift */,
+				96C0C554200BCE4E005A3F7D /* BlogTableViewCell.xib */,
+				9679730B200CEB8300A7CA8A /* Images */,
 				9631F1EB200892BA00B91E93 /* Assets.xcassets */,
 				9631F1ED200892BA00B91E93 /* LaunchScreen.storyboard */,
 				9631F1F0200892BA00B91E93 /* Info.plist */,
@@ -123,6 +253,72 @@
 				9631F206200892BA00B91E93 /* Info.plist */,
 			);
 			path = "nogizaka-1UITests";
+			sourceTree = "<group>";
+		};
+		9679730B200CEB8300A7CA8A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9679730C200CEBB600A7CA8A /* Member */,
+				9631F2122008936E00B91E93 /* ic_logo.png */,
+				96797307200CB8ED00A7CA8A /* ic_bar.png */,
+				96527313200C00D6009A78DF /* ic_check.png */,
+				96797309200CBF0200A7CA8A /* ic_background.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		9679730C200CEBB600A7CA8A /* Member */ = {
+			isa = PBXGroup;
+			children = (
+				9679736B200CF5AD00A7CA8A /* ３期生.jpg */,
+				9679731E200CEBD300A7CA8A /* 秋元真夏.jpg */,
+				9679731D200CEBD200A7CA8A /* 衛藤美彩.jpg */,
+				96797323200CEBD500A7CA8A /* 樋口日奈.jpg */,
+				9679730F200CEBCA00A7CA8A /* 堀未央奈.jpg */,
+				96797329200CEBD700A7CA8A /* 星野みなみ.jpg */,
+				96797310200CEBCA00A7CA8A /* 生駒里奈.jpg */,
+				96797320200CEBD400A7CA8A /* 生田絵梨花.jpg */,
+				96797324200CEBD500A7CA8A /* 井上小百合.jpg */,
+				96797312200CEBCB00A7CA8A /* 伊藤純奈.jpg */,
+				9679732D200CEBD900A7CA8A /* 伊藤かりん.jpg */,
+				96797317200CEBCE00A7CA8A /* 伊藤万理華.jpg */,
+				9679732A200CEBD700A7CA8A /* 伊藤理々杏.jpg */,
+				96797334200CEBDF00A7CA8A /* 岩本蓮加.jpg */,
+				96797336200CEBE000A7CA8A /* 川後陽菜.jpg */,
+				96797315200CEBCD00A7CA8A /* 川村真洋.jpg */,
+				96797325200CEBD600A7CA8A /* 北野日奈子.jpg */,
+				96797314200CEBCD00A7CA8A /* 久保史緒里.jpg */,
+				96797316200CEBCE00A7CA8A /* 松村沙友理.jpg */,
+				96797311200CEBCB00A7CA8A /* 向井葉月.jpg */,
+				96797322200CEBD500A7CA8A /* 中田花奈.jpg */,
+				9679733A200CEBE200A7CA8A /* 中元日芽香.jpg */,
+				9679732C200CEBD800A7CA8A /* 中村麗乃.jpg */,
+				9679732B200CEBD800A7CA8A /* 西野七瀬.jpg */,
+				96797318200CEBCF00A7CA8A /* 能條愛未.jpg */,
+				9679731B200CEBD100A7CA8A /* 大園桃子.jpg */,
+				96797326200CEBD600A7CA8A /* 相楽伊織.jpg */,
+				96797327200CEBD600A7CA8A /* 齋藤飛鳥.jpg */,
+				96797339200CEBE100A7CA8A /* 斎藤ちはる.jpg */,
+				9679730E200CEBC900A7CA8A /* 斉藤優里.jpg */,
+				96797313200CEBCC00A7CA8A /* 阪口珠美.jpg */,
+				96797330200CEBDD00A7CA8A /* 桜井玲香.jpg */,
+				96797338200CEBE100A7CA8A /* 佐々木琴子.jpg */,
+				9679732E200CEBDB00A7CA8A /* 佐藤楓.jpg */,
+				96797319200CEBD000A7CA8A /* 新内眞衣.jpg */,
+				96797331200CEBDE00A7CA8A /* 白石麻衣.jpg */,
+				9679731F200CEBD300A7CA8A /* 鈴木絢音.jpg */,
+				96797335200CEBE000A7CA8A /* 高山一実.jpg */,
+				96797321200CEBD400A7CA8A /* 寺田蘭世.jpg */,
+				9679732F200CEBDC00A7CA8A /* 梅澤美波.jpg */,
+				96797332200CEBDF00A7CA8A /* 和田まあや.jpg */,
+				96797328200CEBD600A7CA8A /* 若月佑美.jpg */,
+				9679731C200CEBD100A7CA8A /* 渡辺みり愛.jpg */,
+				96797333200CEBDF00A7CA8A /* 山下美月.jpg */,
+				96797337200CEBE100A7CA8A /* 山崎怜奈.jpg */,
+				9679731A200CEBD000A7CA8A /* 与田祐希.jpg */,
+				9679730D200CEBC900A7CA8A /* 吉田綾乃クリスティー.jpg */,
+			);
+			path = Member;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +428,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9679734A200CEBE200A7CA8A /* 渡辺みり愛.jpg in Resources */,
+				9679733C200CEBE200A7CA8A /* 斉藤優里.jpg in Resources */,
+				96797347200CEBE200A7CA8A /* 新内眞衣.jpg in Resources */,
+				96527314200C00D7009A78DF /* ic_check.png in Resources */,
+				96797357200CEBE200A7CA8A /* 星野みなみ.jpg in Resources */,
+				9679734E200CEBE200A7CA8A /* 生田絵梨花.jpg in Resources */,
+				96797348200CEBE200A7CA8A /* 与田祐希.jpg in Resources */,
+				96C0C556200BCE4E005A3F7D /* BlogTableViewCell.xib in Resources */,
+				96797363200CEBE200A7CA8A /* 高山一実.jpg in Resources */,
+				96797351200CEBE200A7CA8A /* 樋口日奈.jpg in Resources */,
+				9679733F200CEBE200A7CA8A /* 向井葉月.jpg in Resources */,
+				96797340200CEBE200A7CA8A /* 伊藤純奈.jpg in Resources */,
+				96797365200CEBE200A7CA8A /* 山崎怜奈.jpg in Resources */,
+				96797345200CEBE200A7CA8A /* 伊藤万理華.jpg in Resources */,
+				9679734C200CEBE200A7CA8A /* 秋元真夏.jpg in Resources */,
+				96797366200CEBE200A7CA8A /* 佐々木琴子.jpg in Resources */,
+				9679733B200CEBE200A7CA8A /* 吉田綾乃クリスティー.jpg in Resources */,
+				9679735B200CEBE200A7CA8A /* 伊藤かりん.jpg in Resources */,
+				96797362200CEBE200A7CA8A /* 岩本蓮加.jpg in Resources */,
+				96797349200CEBE200A7CA8A /* 大園桃子.jpg in Resources */,
+				96797359200CEBE200A7CA8A /* 西野七瀬.jpg in Resources */,
+				96797368200CEBE200A7CA8A /* 中元日芽香.jpg in Resources */,
+				9679733E200CEBE200A7CA8A /* 生駒里奈.jpg in Resources */,
+				96797361200CEBE200A7CA8A /* 山下美月.jpg in Resources */,
+				96797346200CEBE200A7CA8A /* 能條愛未.jpg in Resources */,
 				9631F1EF200892BA00B91E93 /* LaunchScreen.storyboard in Resources */,
+				96797343200CEBE200A7CA8A /* 川村真洋.jpg in Resources */,
+				96797344200CEBE200A7CA8A /* 松村沙友理.jpg in Resources */,
+				96797355200CEBE200A7CA8A /* 齋藤飛鳥.jpg in Resources */,
 				9631F1EC200892BA00B91E93 /* Assets.xcassets in Resources */,
+				96797350200CEBE200A7CA8A /* 中田花奈.jpg in Resources */,
+				96797358200CEBE200A7CA8A /* 伊藤理々杏.jpg in Resources */,
+				96797342200CEBE200A7CA8A /* 久保史緒里.jpg in Resources */,
+				96797356200CEBE200A7CA8A /* 若月佑美.jpg in Resources */,
+				96C50C1E200A6B9900EFC71B /* ScheTableViewCell.xib in Resources */,
+				96797360200CEBE200A7CA8A /* 和田まあや.jpg in Resources */,
+				96797341200CEBE200A7CA8A /* 阪口珠美.jpg in Resources */,
+				9679734F200CEBE200A7CA8A /* 寺田蘭世.jpg in Resources */,
+				9679734D200CEBE200A7CA8A /* 鈴木絢音.jpg in Resources */,
+				96797354200CEBE200A7CA8A /* 相楽伊織.jpg in Resources */,
+				9679735A200CEBE200A7CA8A /* 中村麗乃.jpg in Resources */,
+				96797364200CEBE200A7CA8A /* 川後陽菜.jpg in Resources */,
+				9679735C200CEBE200A7CA8A /* 佐藤楓.jpg in Resources */,
+				9679730A200CBF0200A7CA8A /* ic_background.png in Resources */,
+				96797353200CEBE200A7CA8A /* 北野日奈子.jpg in Resources */,
+				9631F2132008936F00B91E93 /* ic_logo.png in Resources */,
+				9679735E200CEBE200A7CA8A /* 桜井玲香.jpg in Resources */,
+				9679736C200CF5B100A7CA8A /* ３期生.jpg in Resources */,
+				9679733D200CEBE200A7CA8A /* 堀未央奈.jpg in Resources */,
+				9679734B200CEBE200A7CA8A /* 衛藤美彩.jpg in Resources */,
 				9631F1EA200892BA00B91E93 /* Main.storyboard in Resources */,
+				96C50C1A200A56C100EFC71B /* NewsTableViewCell.xib in Resources */,
+				9679735F200CEBE200A7CA8A /* 白石麻衣.jpg in Resources */,
+				96797367200CEBE200A7CA8A /* 斎藤ちはる.jpg in Resources */,
+				96797352200CEBE200A7CA8A /* 井上小百合.jpg in Resources */,
+				9679735D200CEBE200A7CA8A /* 梅澤美波.jpg in Resources */,
+				96797308200CB8F100A7CA8A /* ic_bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +511,12 @@
 			files = (
 				9631F1E7200892BA00B91E93 /* ViewController.swift in Sources */,
 				9631F1E5200892BA00B91E93 /* AppDelegate.swift in Sources */,
+				96C50C20200A6F0500EFC71B /* NewsTableViewCell.swift in Sources */,
+				96C0C555200BCE4E005A3F7D /* BlogTableViewCell.swift in Sources */,
+				96CBA698200A03200013F5E7 /* RootViewController.swift in Sources */,
+				96C50C22200A6F1F00EFC71B /* ScheTableViewCell.swift in Sources */,
+				96C0C558200BD8B3005A3F7D /* BlogViewController.swift in Sources */,
+				96CDC009200DC67500217F81 /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,11 +682,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "nogizaka-1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kenmikanproducts.nogizaka-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +700,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "nogizaka-1/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kenmikanproducts.nogizaka-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

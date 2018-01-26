@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="scheCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="scheCell" rowHeight="100" id="KGk-i7-Jjw" customClass="ScheTableViewCell" customModule="nogizaka_1" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_radio" translatesAutoresizingMaskIntoConstraints="NO" id="6lf-cW-ZN2">
+                        <rect key="frame" x="16" y="25" width="48" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="48" id="eyw-0c-rhw"/>
+                            <constraint firstAttribute="width" secondItem="6lf-cW-ZN2" secondAttribute="height" multiplier="1:1" id="yws-4e-IXO"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IjE-YJ-eUC">
+                        <rect key="frame" x="72" y="11" width="240" height="24"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time, broadcasting company" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ada-5R-PWG">
+                        <rect key="frame" x="72" y="43" width="240" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Member" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a5D-e0-ZkB">
+                        <rect key="frame" x="72" y="69" width="240" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="a5D-e0-ZkB" firstAttribute="leading" secondItem="6lf-cW-ZN2" secondAttribute="trailing" constant="8" id="5AW-O7-6yK"/>
+                    <constraint firstAttribute="trailing" secondItem="Ada-5R-PWG" secondAttribute="trailing" constant="8" id="Pj2-fJ-7H3"/>
+                    <constraint firstAttribute="trailing" secondItem="IjE-YJ-eUC" secondAttribute="trailing" constant="8" id="TvZ-sL-JGe"/>
+                    <constraint firstItem="6lf-cW-ZN2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="Wy6-EU-bKT"/>
+                    <constraint firstItem="IjE-YJ-eUC" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="YWS-XW-pir"/>
+                    <constraint firstItem="Ada-5R-PWG" firstAttribute="leading" secondItem="6lf-cW-ZN2" secondAttribute="trailing" constant="8" id="aw2-Uz-Tgb"/>
+                    <constraint firstAttribute="trailing" secondItem="a5D-e0-ZkB" secondAttribute="trailing" constant="8" id="cLW-qS-0Pj"/>
+                    <constraint firstItem="Ada-5R-PWG" firstAttribute="top" secondItem="IjE-YJ-eUC" secondAttribute="bottom" constant="8" id="qcE-o8-Vy5"/>
+                    <constraint firstItem="IjE-YJ-eUC" firstAttribute="leading" secondItem="6lf-cW-ZN2" secondAttribute="trailing" constant="8" id="vgy-uw-lhh"/>
+                    <constraint firstItem="6lf-cW-ZN2" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="w3l-UG-RAc"/>
+                    <constraint firstItem="a5D-e0-ZkB" firstAttribute="top" secondItem="Ada-5R-PWG" secondAttribute="bottom" constant="8" id="wvI-Db-JX6"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="KindImage" destination="6lf-cW-ZN2" id="2bz-4t-WiQ"/>
+                <outlet property="Member" destination="a5D-e0-ZkB" id="a3F-6d-xqc"/>
+                <outlet property="TimeAndCompany" destination="Ada-5R-PWG" id="C39-4y-Mmu"/>
+                <outlet property="Title" destination="IjE-YJ-eUC" id="UTr-M4-ccg"/>
+            </connections>
+            <point key="canvasLocation" x="-18" y="-4"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_radio" width="48" height="48"/>
+    </resources>
+</document>

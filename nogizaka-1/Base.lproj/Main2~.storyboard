@@ -9,11 +9,6 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <customFonts key="customFonts">
-        <array key="HiraginoMaruGothProN.ttc">
-            <string>HiraMaruProN-W4</string>
-        </array>
-    </customFonts>
     <scenes>
         <!--ピックアップ-->
         <scene sceneID="tne-QT-ifu">
@@ -47,7 +42,6 @@
                     <connections>
                         <outlet property="mainScroll" destination="v5z-c9-t0h" id="cEV-Nh-Hon"/>
                         <outlet property="mainView" destination="8bC-Xf-vdC" id="mFQ-jU-mpI"/>
-                        <segue destination="ZVl-DL-6WK" kind="presentation" identifier="pickUpToContent" id="AnN-fI-lQm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -65,7 +59,7 @@
                         <viewLayoutGuide key="safeArea" id="1dW-zk-D9E"/>
                     </view>
                     <navigationItem key="navigationItem" id="xyc-2B-I6x">
-                        <barButtonItem key="leftBarButtonItem" title="戻る" id="2jV-OE-lmG">
+                        <barButtonItem key="leftBarButtonItem" title="Item" id="2jV-OE-lmG">
                             <color key="tintColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="barButton:" destination="dLU-jh-ioK" id="KXE-QB-Orl"/>
@@ -129,15 +123,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nai-Zx-BWn">
-                                <rect key="frame" x="16" y="120" width="343" height="68"/>
-                                <string key="text">努力！感謝！笑顔！うちらは乃木坂上り坂４６！</string>
-                                <fontDescription key="fontDescription" name="HiraMaruProN-W4" family="Hiragino Maru Gothic ProN" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NogiWeb" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nai-Zx-BWn">
+                                <rect key="frame" x="16" y="120" width="343" height="84"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rhd-PD-S7h">
-                                <rect key="frame" x="144.5" y="452.5" width="86.5" height="24"/>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="E8B-cJ-6sN">
+                                <rect key="frame" x="169" y="343.5" width="37" height="37"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="情報取得中..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rhd-PD-S7h">
+                                <rect key="frame" x="128.5" y="452.5" width="118" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -146,13 +142,18 @@
                         <color key="backgroundColor" red="0.59999999999999998" green="0.20000000000000001" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="tr3-Qx-vnR" firstAttribute="trailing" secondItem="Nai-Zx-BWn" secondAttribute="trailing" constant="16" id="027-qM-FT7"/>
+                            <constraint firstItem="E8B-cJ-6sN" firstAttribute="centerX" secondItem="tr3-Qx-vnR" secondAttribute="centerX" id="QYl-R8-QIq"/>
                             <constraint firstItem="Nai-Zx-BWn" firstAttribute="top" secondItem="tr3-Qx-vnR" secondAttribute="top" constant="100" id="T1x-Qy-hbr"/>
-                            <constraint firstItem="tr3-Qx-vnR" firstAttribute="bottom" secondItem="Rhd-PD-S7h" secondAttribute="bottom" constant="190.5" id="aCV-ef-8B8"/>
+                            <constraint firstItem="tr3-Qx-vnR" firstAttribute="centerY" secondItem="E8B-cJ-6sN" secondAttribute="centerY" constant="-18.5" id="fCl-pP-aeD"/>
                             <constraint firstItem="Rhd-PD-S7h" firstAttribute="centerX" secondItem="tr3-Qx-vnR" secondAttribute="centerX" id="frJ-bF-XId"/>
                             <constraint firstItem="Nai-Zx-BWn" firstAttribute="leading" secondItem="tr3-Qx-vnR" secondAttribute="leading" constant="16" id="tHD-CO-678"/>
+                            <constraint firstItem="Rhd-PD-S7h" firstAttribute="top" secondItem="E8B-cJ-6sN" secondAttribute="bottom" constant="72" id="yNp-LI-iG4"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="tr3-Qx-vnR"/>
                     </view>
+                    <connections>
+                        <outlet property="myActivityIndicator" destination="E8B-cJ-6sN" id="Fpi-aC-f9A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sNo-s0-FUU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -276,7 +277,4 @@
         <image name="ic_note" width="30" height="30"/>
         <image name="ic_settings" width="30" height="30"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="AnN-fI-lQm"/>
-    </inferredMetricsTieBreakers>
 </document>
