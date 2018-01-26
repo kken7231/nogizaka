@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  nogizaka-1
 //
-//  Created by kentaro on 2018/01/12.
+//  Created by kken7231 on 2018/01/12.
 //  Copyright © 2018 kken7231. All rights reserved.
 //
 
